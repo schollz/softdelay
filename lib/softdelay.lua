@@ -93,7 +93,7 @@ function Softdelay:new(o)
   params:set("softdelay_beats",0.25)
   params:set("softdelay_feedback",0.5)
   params:set("softdelay_level",1.0)
-  prit("softdelay initialized")
+  print("softdelay initialized")
   return o
 end
 
